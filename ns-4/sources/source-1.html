@@ -1,0 +1,178 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > SubMenu</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">view</a>
+</div>
+
+<h1>Coverage Summary for Class: SubMenu (view)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">SubMenu</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/36)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package view;
+&nbsp;
+&nbsp;import controllers.ControllerArray;
+&nbsp;
+&nbsp;import java.util.List;
+&nbsp;
+&nbsp;import static view.ViewGeneral.scanner;
+&nbsp;
+&nbsp;public class SubMenu {
+&nbsp;    private ControllerArray controllerArray1;
+&nbsp;    private ControllerArray controllerArray2;
+&nbsp;    private ControllerArray controllerArray;
+&nbsp;    private int number;
+&nbsp;
+<b class="nc">&nbsp;    public SubMenu () {</b>
+<b class="nc">&nbsp;        controllerArray = new ControllerArray();</b>
+<b class="nc">&nbsp;        controllerArray1 = new ControllerArray();</b>
+<b class="nc">&nbsp;        controllerArray2 = new ControllerArray();</b>
+&nbsp;
+&nbsp;    }
+&nbsp;
+&nbsp;    public void addNumberMenu () {
+<b class="nc">&nbsp;        System.out.print(&quot;Добавьте числа в первый лист: &quot;);</b>
+<b class="nc">&nbsp;        while (inputNumber()) {</b>
+<b class="nc">&nbsp;            controllerArray1.passNumber(this.number);</b>
+<b class="nc">&nbsp;            System.out.print(&quot;Ещё: &quot;);</b>
+&nbsp;        }
+<b class="nc">&nbsp;        System.out.print(&quot;Теперь во второй: &quot;);</b>
+<b class="nc">&nbsp;        while (inputNumber()) {</b>
+<b class="nc">&nbsp;            controllerArray2.passNumber(this.number);</b>
+<b class="nc">&nbsp;            System.out.print(&quot;Ещё: &quot;);</b>
+&nbsp;        }
+<b class="nc">&nbsp;        printList(controllerArray1.pullList());</b>
+<b class="nc">&nbsp;        printList(controllerArray2.pullList());</b>
+<b class="nc">&nbsp;        System.out.println(&quot;1 list: &quot; + controllerArray1.getSumArray());</b>
+<b class="nc">&nbsp;        System.out.println(&quot;2 list: &quot; + controllerArray2.getSumArray());</b>
+&nbsp;
+<b class="nc">&nbsp;        printResultCompare(controllerArray.</b>
+<b class="nc">&nbsp;                compareList(controllerArray1.getSumArray(), controllerArray2.getSumArray()));</b>
+&nbsp;
+&nbsp;    }
+&nbsp;
+&nbsp;
+&nbsp;    private boolean inputNumber () {
+&nbsp;        try {
+<b class="nc">&nbsp;            String input = scanner.nextLine();</b>
+<b class="nc">&nbsp;            if (input.isEmpty()) {</b>
+<b class="nc">&nbsp;                return false;</b>
+&nbsp;            }
+<b class="nc">&nbsp;            this.number = Integer.parseInt(input);</b>
+<b class="nc">&nbsp;        } catch (NumberFormatException e) {</b>
+<b class="nc">&nbsp;            System.out.println(&quot;Вы ввели не число. &quot;);</b>
+<b class="nc">&nbsp;        }</b>
+<b class="nc">&nbsp;        return true;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private void printList (List&lt;Integer&gt; list) {
+<b class="nc">&nbsp;        System.out.print(&quot;List number #1: &quot;);</b>
+<b class="nc">&nbsp;        for (int num: list</b>
+&nbsp;             ) {
+<b class="nc">&nbsp;            System.out.print(num + &quot; &quot;) ;</b>
+<b class="nc">&nbsp;        }</b>
+<b class="nc">&nbsp;        System.out.println();</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private void printResultCompare (int a) {
+<b class="nc">&nbsp;        if (a == 1) {</b>
+<b class="nc">&nbsp;            System.out.println(&quot;Первый список больше второго. &quot;);</b>
+<b class="nc">&nbsp;        } else if (a == -1) {</b>
+<b class="nc">&nbsp;            System.out.println(&quot;Второй список больше первого. &quot;);</b>
+&nbsp;        } else {
+<b class="nc">&nbsp;            System.out.println(&quot;Списки равны. &quot;);</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-10-15 16:22</div>
+</div>
+</body>
+</html>

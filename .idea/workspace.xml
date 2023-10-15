@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b921898-8d56-4eb0-9b09-bcc0b18c392a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/ControllerArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/ArrayMultiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/SubMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/ViewGeneral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/controllers/ControllerArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/ArrayMultiplyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/view/ViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/view/ViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/view/ViewTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,14 +57,7 @@
       <recent name="D:\projects\java\Testing6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ViewTest.exitMenuTest">
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <module name="Testing6" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in Testing6">
     <configuration name="All in Testing6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing6" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,22 +66,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayMultiplyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testing6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.ArrayMultiplyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ViewTest.exitMenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ViewTest.dialogContinue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing6" />
       <extension name="coverage">
         <pattern>
@@ -112,13 +76,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="view" />
       <option name="MAIN_CLASS_NAME" value="view.ViewTest" />
-      <option name="METHOD_NAME" value="exitMenuTest" />
+      <option name="METHOD_NAME" value="dialogContinue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ViewTest.viewMainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ViewTest.inputEnterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing6" />
       <extension name="coverage">
         <pattern>
@@ -128,19 +92,49 @@
       </extension>
       <option name="PACKAGE_NAME" value="view" />
       <option name="MAIN_CLASS_NAME" value="view.ViewTest" />
-      <option name="METHOD_NAME" value="viewMainTest" />
+      <option name="METHOD_NAME" value="inputEnterTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="ViewTest.inputMenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="view" />
+      <option name="MAIN_CLASS_NAME" value="view.ViewTest" />
+      <option name="METHOD_NAME" value="inputMenuTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Python tests in test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Testing6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ViewTest.exitMenuTest" />
         <item itemvalue="JUnit.All in Testing6" />
-        <item itemvalue="JUnit.ViewTest.viewMainTest" />
-        <item itemvalue="JUnit.ArrayMultiplyTest" />
-        <item itemvalue="Application.MainTest" />
+        <item itemvalue="JUnit.ViewTest.inputMenuTest" />
+        <item itemvalue="Python tests.Python tests in test" />
+        <item itemvalue="JUnit.ViewTest.inputEnterTest" />
+        <item itemvalue="JUnit.ViewTest.dialogContinue" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +168,7 @@
     <SUITE FILE_PATH="coverage/Testing6$ArrayMultiplyTest.ic" NAME="ArrayMultiplyTest Coverage Results" MODIFIED="1696765265803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>model.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Testing6$All_in_Testing6.ic" NAME="All in Testing6 Coverage Results" MODIFIED="1696968941667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Testing6$All_in_Testing6.ic" NAME="All in Testing6 Coverage Results" MODIFIED="1697375101341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Testing6$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1696765215631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Testing6$ControllerArrayTest.ic" NAME="ControllerArrayTest Coverage Results" MODIFIED="1696765055597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>controllers.*</FILTER>
